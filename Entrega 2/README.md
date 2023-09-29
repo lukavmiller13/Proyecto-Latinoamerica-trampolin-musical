@@ -6,4 +6,4 @@
 
 ##### Link Video: 
 
-##### Link Presentación:
+##### Link Presentación: https://www.canva.com/design/DAFsfIbdGOU/_rOUh39m7mQps1drmQmWvg/edit
