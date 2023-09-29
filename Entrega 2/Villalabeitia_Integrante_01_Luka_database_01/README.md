@@ -17,6 +17,7 @@ Decisiones a comentar
 
 - Spotify
 - Spotify Stats
+- Rolling Stone
 
 #### ¿Qué preguntas responde mi base de datos?
 
