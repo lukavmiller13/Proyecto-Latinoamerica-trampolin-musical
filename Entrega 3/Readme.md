@@ -4,4 +4,4 @@
 
 Link video: https://youtu.be/d40bgPrX70c
 
-
+Link presentación: https://www.canva.com/design/DAFsfIbdGOU/_rOUh39m7mQps1drmQmWvg/edit
