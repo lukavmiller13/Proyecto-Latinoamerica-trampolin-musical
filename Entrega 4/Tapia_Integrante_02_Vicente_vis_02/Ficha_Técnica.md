@@ -1,5 +1,3 @@
-Ficha técnica (archivo Markdown) para explicar las dimensiones de la base de datos ocupada
+## Ficha técnica
 
-Característica de los datos si es necesario
-Variables incorporadas: variable | descripción
-Observaciones que tengan sobre la base de datos
+#### Las bases de datos tienen los siguientes datos: canciones más escuchadas del momento en México, lo cuál es un traductor a qué género musical está predominando en el país. Y reproducciones de cada uno de las cinco canciones de este país. México es un país muy grande, por lo que las reproducciones alcanzan cufras muy altas. La idea de esto es poder comparar la situación en todos estos países. La base de datos debe estar en constante actualización, por lo que estaremos al tanto de las reproducciones que aparezcan a medida que pase el tiempo.
