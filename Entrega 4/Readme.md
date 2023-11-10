@@ -4,6 +4,5 @@
 
 #### Esto llevó a que limpiaramos, actualizaramos y también crearamos nuevas bases de datos para que fueran las más adecuadas para realizar buenas visualizaciones.
     
-##### Link Video: 
+##### Link Video: https://youtu.be/jRmjKKt2Ado
 
-##### Link Presentación:
