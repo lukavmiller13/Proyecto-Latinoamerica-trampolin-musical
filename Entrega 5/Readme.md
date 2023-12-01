@@ -4,7 +4,7 @@
 
 ### Link página web: https://lukavmiller13.github.io/Latinoamerica-la-catapulta-del-genero-urbano/
 
-### Link video:
+### Link video: https://www.youtube.com/watch?v=k76n8XvHFf0
 
 ### Link presentación: https://www.canva.com/design/DAFsfIbdGOU/_rOUh39m7mQps1drmQmWvg/edit
 
