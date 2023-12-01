@@ -9,10 +9,10 @@
 ### Link presentación: https://www.canva.com/design/DAFsfIbdGOU/_rOUh39m7mQps1drmQmWvg/edit
 
 ### Ponderador de autoría:
-#### Visualizaciones: Luka y Vicente 
-#### Redacción: Nicolás y Vicente 
-#### Montaje webstory: Luka 
-#### Bases de datos: Luka, Vicente y Nicolás 
-#### Presentación y video: Nicolás 
-#### Explicaciones visualizaciones: Vicente 
-#### Elementos gráficos: Nicolás
+#### - Visualizaciones: Luka y Vicente 
+#### - Redacción: Nicolás y Vicente 
+#### - Montaje webstory: Luka 
+#### - Bases de datos: Luka, Vicente y Nicolás 
+#### - Presentación y video: Nicolás 
+#### - Explicaciones visualizaciones: Vicente 
+#### - Elementos gráficos: Nicolás
