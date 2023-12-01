@@ -13,14 +13,43 @@ header {
     padding: 20px;
 }
 
+section {
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 50px; 
+    max-width: 1000px; 
+    text-align: justify; 
+    line-height: 1.5; 
+}
+
+section p {
+    margin: 0; 
+}
+
+
 main {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px 100px; 
     padding: 20px;
 }
 
+.artist-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.artist-container img {
+    height: 100%; 
+    margin-right: 20px; 
+}
+
 section {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+}
+
+section p {
+    margin-top: 20px; 
+    margin-bottom: 20px; /* Agrega un margen inferior para la separación deseada */
 }
 
 footer {
@@ -31,4 +60,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: auto; 
 }
