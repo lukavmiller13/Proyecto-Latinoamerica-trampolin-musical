@@ -6,6 +6,6 @@
 
 ### Link video:
 
-### Link presentación: 
+### Link presentación: https://www.canva.com/design/DAFsfIbdGOU/_rOUh39m7mQps1drmQmWvg/edit
 
 ### Ponderador de autoría:
