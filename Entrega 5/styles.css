@@ -52,7 +52,9 @@ section p span {
     font-size: 1.2em;
 }
 
-
+canvas {
+    width: 100%;
+}
 
 .artist-container {
     display: flex;
