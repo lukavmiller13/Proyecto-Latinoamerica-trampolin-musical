@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": "bar", "encoding": {"color": {"field": "Estreno", "legend": {"orient": "left", "title": "Mes de Estreno"}, "scale": {"domain": ["enero", "febrero", "marzo", "abril", "julio"], "range": ["#000000", "#4285F4", "#1DB954", "#FFD700", "#808080"]}, "type": "nominal"}, "tooltip": [{"field": "Canciones con mayor Streams 2023", "type": "nominal"}, {"field": "Streams 2023 (en millones)", "type": "quantitative"}, {"field": "Estreno", "type": "nominal"}], "x": {"axis": {"format": ".3s"}, "field": "Streams 2023 (en millones)", "type": "quantitative"}, "y": {"field": "Canciones con mayor Streams 2023", "sort": null, "type": "nominal"}}, "height": 400, "title": "Canciones con Mayor Streams en 2023", "width": 600}, {"mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 3}, "encoding": {"color": {"field": "Estreno", "legend": {"orient": "left", "title": "Mes de Estreno"}, "scale": {"domain": ["enero", "febrero", "marzo", "abril", "julio"], "range": ["#000000", "#4285F4", "#1DB954", "#FFD700", "#808080"]}, "type": "nominal"}, "text": {"field": "Streams 2023 (en millones)", "type": "quantitative"}, "tooltip": [{"field": "Canciones con mayor Streams 2023", "type": "nominal"}, {"field": "Streams 2023 (en millones)", "type": "quantitative"}, {"field": "Estreno", "type": "nominal"}], "x": {"axis": {"format": ".3s"}, "field": "Streams 2023 (en millones)", "type": "quantitative"}, "y": {"field": "Canciones con mayor Streams 2023", "sort": null, "type": "nominal"}}, "height": 400, "title": "Canciones con Mayor Streams en 2023", "width": 600}], "data": {"name": "data-7fad6cfe8c7dedee167326b6d19c5a54"}, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-7fad6cfe8c7dedee167326b6d19c5a54": [{"Canciones con mayor Streams 2023": "Flowers - Miley Cyrus", "Streams 2023 (en millones)": 1611403194, "Estreno": "enero", "Color": "#000000"}, {"Canciones con mayor Streams 2023": "Seven - Jung Kook y Latto", "Streams 2023 (en millones)": 1142338508, "Estreno": "julio", "Color": "#808080"}, {"Canciones con mayor Streams 2023": "Ella baila sola - Eslab\u00f3n Armado y Peso Pluma", "Streams 2023 (en millones)": 996003088, "Estreno": "marzo", "Color": "#1DB954"}, {"Canciones con mayor Streams 2023": "BZRP Shakira y Bizarrap", "Streams 2023 (en millones)": 834949142, "Estreno": "enero", "Color": "#000000"}, {"Canciones con mayor Streams 2023": "TQG - Shakira y Karol G", "Streams 2023 (en millones)": 819829846, "Estreno": "febrero", "Color": "#4285F4"}, {"Canciones con mayor Streams 2023": "La beb\u00e9 (remix) - Yng Lvcas y Peso Pluma", "Streams 2023 (en millones)": 817820824, "Estreno": "marzo", "Color": "#1DB954"}, {"Canciones con mayor Streams 2023": "Un x100to - Grupo Frontera y Bad Bunny", "Streams 2023 (en millones)": 769557440, "Estreno": "abril", "Color": "#FFD700"}, {"Canciones con mayor Streams 2023": "Daylight - David Kushner", "Streams 2023 (en millones)": 740759015, "Estreno": "abril", "Color": "#FFD700"}, {"Canciones con mayor Streams 2023": "Boy's a liar Pt. 2 - PinkPantheress e Ice Spice", "Streams 2023 (en millones)": 729950285, "Estreno": "febrero", "Color": "#4285F4"}, {"Canciones con mayor Streams 2023": "Cupid (twin ver) - Fifty fifty", "Streams 2023 (en millones)": 711619265, "Estreno": "febrero", "Color": "#4285F4"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
