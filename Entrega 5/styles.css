@@ -13,13 +13,29 @@ header {
     padding: 20px;
 }
 
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(29, 185, 84, 0.5); /* Sombra verde */
+    border: 1px solid #1DB954; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: left; /* Puedes mantener el justificado si lo prefieres */
+    margin-bottom: 100px; /* Ajusta el valor según sea necesario */
+}
+
 section {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 80px;
-    max-width: 1000px;
-    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto; /* Centra horizontalmente el bloque dentro de main */
     line-height: 1.5;
+    box-shadow: 0 0 8px rgba(29, 185, 84, 0.3); /* Sombra verde más suave */
+    border: 1px solid #1DB954; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Añade espacio interno */
 }
 
 section p {
@@ -27,11 +43,16 @@ section p {
     margin-bottom: 20px;
 }
 
-main {
-    max-width: 800px;
-    margin: 20px 100px; 
-    padding: 20px;
+section p strong {
+    font-weight: bold;
 }
+
+/* Puedes ajustar el valor de font-size según tus preferencias */
+section p span {
+    font-size: 1.2em;
+}
+
+
 
 .artist-container {
     display: flex;
@@ -51,5 +72,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: auto; 
 }
