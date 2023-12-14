@@ -52,6 +52,18 @@ section p span {
     font-size: 1.2em;
 }
 
+/* Agrega estilos para centrar la imagen específica */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Define el color verde característico de Spotify para la clase específica */
+.spotify-highlight {
+    color: #1DB954; /* Este es el color verde de Spotify, puedes ajustarlo según tus preferencias */
+    font-weight: bold; /* Otras propiedades de estilo según sea necesario */
+}
+
 canvas {
     width: 100%;
 }
